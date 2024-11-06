@@ -1,0 +1,4 @@
+#/bin/sh
+mkdir -p ${DESTDIR}/lib/firmware/edid
+cp -pnL /lib/firmware/edid/1280x960.bin ${DESTDIR}/lib/firmware/edid/1280x960.bin
+chmod 644 ${DESTDIR}/lib/firmware/edid/1280x960.bin
